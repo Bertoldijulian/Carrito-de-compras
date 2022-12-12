@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #storeContainer {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    width: 400px;
+    height: 470px;
+    margin-top: 20px;
+  }
+  
+  #storeContainer .item {
+    border: solid 4px rgba(185, 185, 185, 0.851);
+    padding: 20px;
+
+  }
+  
+  #shoppingContainer {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    border: solid 1px #ccc;
+    padding: 10px;
+  }
+  
+
+  
+  .item .title {
+    font-weight: bold;
+  }
+  .item .price {
+    color: green;
+    font-weight: bold;
+  }
+
+  .item img{
+    width: 300px;
+    height: 300px;
+  }
+  .item div {
+    padding: 5px 0;
+  }
+  
+  
